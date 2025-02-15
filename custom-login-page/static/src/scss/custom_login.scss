@@ -1,0 +1,29 @@
+// custom_login/static/src/scss/custom_login.scss
+
+// Import Odoo's variables and mixins
+@import 'web/static/src/scss/utils';
+
+// Customize the login page background
+body.login {
+    background-color: #f0f0f0;
+}
+
+// Customize the login form
+.oe_login_form {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+// Customize input fields
+.oe_login_form input {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+// Customize the login button
+.oe_login_form button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+}

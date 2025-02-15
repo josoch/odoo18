@@ -1,0 +1,8 @@
+<odoo>
+    <template id="custom_login" inherit_id="web.login_layout">
+        <xpath expr="//link[@href='/web/static/src/scss/login.scss']" position="replace">
+            <link rel="stylesheet" type="text/scss" href="/custom_login/static/src/scss/custom_login.scss"/>
+        </xpath>
+        <!-- Add additional customizations here -->
+    </template>
+</odoo>
